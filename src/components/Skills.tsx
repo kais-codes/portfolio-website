@@ -6,7 +6,7 @@ function Skills() {
           <h1>Skills</h1>
         </div>
         <div className="row justify-content-center">
-          <div className="col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-4 col-sm-12">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
@@ -35,7 +35,7 @@ function Skills() {
               </ul>
             </div>
           </div>
-          <div className="col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-4 col-sm-12">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
@@ -69,7 +69,7 @@ function Skills() {
               </ul>
             </div>
           </div>
-          <div className="col-md-3 col-sm-12">
+          <div className="col-lg-3 col-md-4 col-sm-12">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
