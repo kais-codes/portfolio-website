@@ -1,7 +1,7 @@
 function Skills() {
   return (
     <>
-      <div className="container" id="skills">
+      <div className="container bordered" id="skills">
         <div className="container-fluid text-center">
           <h1>Skills</h1>
         </div>

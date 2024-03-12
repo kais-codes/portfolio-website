@@ -1,7 +1,14 @@
 .bordered {
   border: 5px solid white;
-  height: 500px;
-  padding: 50px;
+  height: 700px;
+  padding: 100px;
+  margin: 50px;
+}
+
+.box {
+  border: 5px solid white;
+  text-align: center;
+  margin: 10px;
 }
 
 .right-align {
@@ -17,9 +24,13 @@
   justify-items: end;
 }
 
-.card {
-  transition: transform 1s;
+.pfp {
+  border-radius: 100px;
+  width: 128px;
+  height: 128px;
+}
 
+.card {
   animation: jiggle linear infinite;
   animation-duration: 4s;
 

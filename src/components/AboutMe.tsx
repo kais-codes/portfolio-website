@@ -1,15 +1,18 @@
 function AboutMe() {
   return (
     <>
-      <div className="container m-5 bordered" id="aboutme">
+      <div className="container bordered" id="aboutme">
         <div className="text-center">
           <h1>A Little About Me</h1>
         </div>
         <div className="row justify-content-center">
-          <div className="col-4 text-center">
-            <span>[picture of me]</span>
+          <div className="col-4 box">
+            <h1>Kyrne Li</h1>
+            <div>
+              <img src="/pfp.jpg" alt="profile" className="pfp" />
+            </div>
           </div>
-          <div className="col-6 text-center">[info about me]</div>
+          <div className="col-6 box">[info about me]</div>
         </div>
       </div>
     </>
