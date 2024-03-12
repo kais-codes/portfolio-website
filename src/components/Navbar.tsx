@@ -32,17 +32,27 @@ function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a className="links" href="#">
-                About
+              <a className="links" href="#skills">
+                Skills
               </a>
             </li>
             <li className="nav-item">
-              <a className="links" href="#">
+              <a className="links" href="#projects">
                 Projects
               </a>
             </li>
             <li className="nav-item">
-              <a className="links" href="#">
+              <a className="links" href="#contact">
+                Contact
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="links"
+                href="https://www.dropbox.com/scl/fi/0z676q9u5ipeq6rehtcvw/Kyrne-Li-Resume.pdf?rlkey=bc2q5vgin2glie7mhxeub704j&dl=0"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 Resume
               </a>
             </li>
