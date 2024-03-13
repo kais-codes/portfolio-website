@@ -1,9 +1,9 @@
 function Contact() {
   return (
     <>
-      <div className="container bordered" id="contact">
+      <div className="container section-outline" id="contact">
         <div className="row justify-content-center">
-          <div className="box">
+          <div className="box-outline">
             <h1>Contact me!</h1>
           </div>
         </div>

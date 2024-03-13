@@ -1,33 +1,47 @@
-.bordered {
+.section-outline {
   border: 5px solid white;
-  height: 700px;
+  height: 70%;
   padding: 100px;
   margin: 50px;
 }
 
-.box {
+.box-outline {
   border: 5px solid white;
   text-align: center;
   margin: 10px;
+  margin-bottom: 40px;
+  align-content: center;
+}
+
+.carousel-outline {
+  border: solid 2px white;
+  margin: auto;
+  padding: 10px;
+}
+
+.name-effects {
+  letter-spacing: 2px;
+}
+
+.glow-effect {
+  text-shadow: 1px 2px 5px beige;
 }
 
 .right-align {
   float: right;
 }
 
-.section-header {
-  color: white;
+.box {
   text-align: center;
+  margin: 10px;
+  margin-bottom: 40px;
+  align-content: center;
 }
 
-.container-center {
-  justify-items: end;
-}
-
-.pfp {
-  border-radius: 100px;
-  width: 200px;
-  height: 200px;
+.section {
+  height: 70%;
+  padding: 100px;
+  margin: 50px;
 }
 
 .card {
@@ -48,11 +62,11 @@
   padding: 15px;
   border-radius: 40px;
 
-  transition: background-color .6s;
+  transition: background-color 0.6s;
 
-  &:hover{
+  &:hover {
     background-color: rgb(180, 180, 167);
-    color:black;
+    color: black;
   }
 }
 
@@ -72,15 +86,11 @@
 }
 
 @keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.1);
-  }
-
+  0%,
   100% {
     transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
   }
 }

@@ -1,12 +1,12 @@
 function Skills() {
   return (
     <>
-      <div className="container bordered" id="skills">
-        <div className="container-fluid text-center">
-          <h1>Skills</h1>
+      <div className="container section" id="skills">
+        <div className="container-fluid text-center box">
+          <h1 className="glow-effect">Skills</h1>
         </div>
         <div className="row justify-content-center">
-          <div className="col-lg-3 col-md-4 col-sm-12">
+          <div className="col-lg-4 col-md-5 col-sm-12 m-2">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
@@ -35,7 +35,7 @@ function Skills() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-12">
+          <div className="col-lg-3 col-md-5 col-sm-12 m-2">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
@@ -54,7 +54,7 @@ function Skills() {
                 <li className="list-group-item">
                   <img src="/icons/html5.svg" alt="html5-icon" />
                   <span>HTML</span>
-                  <span className="right-align">Basic</span>
+                  <span className="right-align">Intermediate</span>
                 </li>
                 <li className="list-group-item">
                   <img src="/icons/css3.svg" alt="css3-icon" />
@@ -69,7 +69,7 @@ function Skills() {
               </ul>
             </div>
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-12">
+          <div className="col-lg-3 col-md-5 col-sm-12 m-2">
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">
