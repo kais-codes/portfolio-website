@@ -3,7 +3,10 @@ function Skills() {
     <>
       <div className="container section" id="skills">
         <div className="container-fluid text-center box">
-          <h1 className="glow-effect">Skills</h1>
+          <h1 className="glow-effect">
+            Current Skillset
+            <span className="tiny-text"> (forever a work in progress)</span>
+          </h1>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-5 col-sm-12 m-2">
@@ -13,7 +16,7 @@ function Skills() {
                   <b>Programming Languages</b>
                 </h5>
                 <p className="card-text">
-                  Langauges I have used in developing different apps
+                  Languages I have used in developing different apps
                 </p>
               </div>
               <ul className="list-group list-group-flush">
@@ -76,7 +79,7 @@ function Skills() {
                   <b>Backend Technologies</b>
                 </h5>
                 <p className="card-text">
-                  Tools I've used to develop in the backend.
+                  Tools I've used to develop in the backend
                 </p>
               </div>
               <ul className="list-group list-group-flush">
