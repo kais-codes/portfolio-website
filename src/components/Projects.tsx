@@ -7,7 +7,11 @@ function Projects() {
             <h1 className="glow-effect">Projects I've Worked on and Created</h1>
           </div>
           <div className="col-lg-5 carousel">
-            <div id="projects-carousel" className="carousel slide">
+            <div
+              id="projects-carousel"
+              className="carousel slide"
+              data-bs-ride="carousel"
+            >
               <div className="carousel-indicators">
                 <button
                   type="button"
@@ -35,6 +39,12 @@ function Projects() {
                   data-bs-slide-to="3"
                   aria-label="Slide 4"
                 ></button>
+                <button
+                  type="button"
+                  data-bs-target="#projects-carousel"
+                  data-bs-slide-to="4"
+                  aria-label="Slide 5"
+                ></button>
               </div>
               <div className="carousel-inner">
                 <div className="carousel-item active">
@@ -49,7 +59,7 @@ function Projects() {
                   <img
                     src="/carousel-images/tools.png"
                     className="d-block w-100"
-                    alt="..."
+                    alt="tools"
                   />
                   <div className="carousel-caption d-none d-md-block"></div>
                 </div>
@@ -57,7 +67,7 @@ function Projects() {
                   <img
                     src="/carousel-images/gym-tracker.png"
                     className="d-block w-100"
-                    alt="..."
+                    alt="gym-tracker"
                   />
                   <div className="carousel-caption d-none d-md-block"></div>
                 </div>
@@ -65,7 +75,15 @@ function Projects() {
                   <img
                     src="/carousel-images/text-editor.png"
                     className="d-block w-100"
-                    alt="..."
+                    alt="text-editor"
+                  />
+                  <div className="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div className="carousel-item">
+                  <img
+                    src="/carousel-images/wger.png"
+                    className="d-block w-100"
+                    alt="wger"
                   />
                   <div className="carousel-caption d-none d-md-block"></div>
                 </div>
@@ -97,7 +115,7 @@ function Projects() {
             </div>
           </div>
           <p className="carousel-text">
-            All of my projects can be found on my GitHub
+            All of my projects & contributions can be found on GitHub
           </p>
         </div>
       </div>
