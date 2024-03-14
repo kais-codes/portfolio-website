@@ -45,6 +45,16 @@ function Navbar() {
                 Resume
               </a>
             </li>
+            <li className="nav-item">
+              <a
+                className="links"
+                href="https://kyrnesblog.wordpress.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Blog
+              </a>
+            </li>
           </ul>
         </div>
       </div>

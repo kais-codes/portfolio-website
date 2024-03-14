@@ -3,10 +3,8 @@ function Skills() {
     <>
       <div className="container section" id="skills">
         <div className="container-fluid text-center box">
-          <h1 className="glow-effect">
-            Current Skillset
-            <span className="tiny-text"> (forever a work in progress)</span>
-          </h1>
+          <h1 className="glow-effect">Current Skillset</h1>
+          <span className="tiny-text"> (forever a work in progress)</span>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-4 col-md-5 col-sm-12 m-2">

@@ -1,5 +1,3 @@
-import "../css/About.css";
-
 function AboutMe() {
   const travel = () => {
     window.location.href = "#contact";
@@ -11,7 +9,7 @@ function AboutMe() {
         <div className="row justify-content-center">
           <div className="col-lg-4 col-sm-12 box">
             <div>
-              <h1 className="name-effects">KYRNE LI</h1>
+              <h1 className="glow-effect">KYRNE LI</h1>
             </div>
             <div>
               <img src="/pfp.jpg" alt="profile" className="pfp" />
