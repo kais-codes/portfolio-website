@@ -1,5 +1,4 @@
 function Contact() {
-  const abcd = btoa("mailto:kyrne.li@outlook.com");
   return (
     <>
       <div className="container contact-section" id="contact">
@@ -69,7 +68,7 @@ function Contact() {
                 className="mail-icon"
               />
               <br />
-              <form action={atob(abcd)}>
+              <form action="mailto:&#107;&#121;&#114;&#110;&#101;&#046;&#108;&#105;&#064;&#111;&#117;&#116;&#108;&#111;&#111;&#107;&#046;&#099;&#111;&#109;">
                 <button className="btn-main">Write me!</button>
               </form>
             </div>
